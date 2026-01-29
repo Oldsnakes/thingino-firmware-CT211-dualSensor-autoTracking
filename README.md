@@ -14,3 +14,8 @@ Therefore, I would like to just post them as ideas for the team to consider as f
 -  Integrate Motor control to interface with motor-daemon for faster response.
 -  Add auto tracking to PTZ camera and turn on white light when motion is detected.  
 -  Add dual-sensor/dual-stream (time-shared) RTSP/JPEG streaming at front end and muli-view to WebUI.  (platform dependent)
+![preview-Dual Sensor](https://github.com/user-attachments/assets/5e6954fc-dde2-4d1c-af9c-e4d798c601a6)
+![streamer-Dual Sensor](https://github.com/user-attachments/assets/004868f7-e9c8-4207-929b-ca6835e11c7d)
+![Motion-Box Mode](https://github.com/user-attachments/assets/151f6293-5d9c-46f2-b67a-dffb94f928cb)
+![Motion-Map Mode](https://github.com/user-attachments/assets/907a0b99-2fdc-4f38-a552-897d415c25d3)
+![Motion-heat map](https://github.com/user-attachments/assets/ba893a61-6964-4817-8d8c-0977f1bbf2d0)
