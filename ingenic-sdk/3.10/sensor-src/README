@@ -1,0 +1,5 @@
+gc1084/gc1084s0 module source
+gc1084 coded for i2c0-x37, sensor
+gc1084s0 code for i2c1-x37, sensor1
+add sensor1 to /proc/jz
+use gc1084-t23.bin and gc1084s0-t23.bin(same bin file) in /usr/share/sensor.  Can be linked.
