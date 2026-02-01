@@ -1,0 +1,27 @@
+Add control to WebUI for to extend low light range.
+  - manual exposure 
+  - analog gain 
+  - set in config-streamer.cgi/Image correction
+Integrate GPIO control into Prudynt
+  - sensor switch.
+  - IR/white lights
+  - IR cut
+  - add ctrl-hal.cpp/ctrl-hal.hpp
+Add Tiled/Map multi-ROIs to motion control. 
+  - box mode for one ROI region or,
+  - map mode for 8x6 tiles, 48 ROIs
+Add auto tracking to PTZ camera
+  - use multi-ROIs map mode for tracking.
+  - caculate hot spot to track to.
+  - avoid false movement by ignore large area hit.
+  - auto home at end
+Add turn on white light when motion is detected and auto back to previous state after post_time.
+Integrate Motor control to interface with motor-daemon for faster response.
+  - add Motor.cpp/Motor.hpp
+Add dual-sensor/dual-stream (time-shared) RTSP/JPEG streaming at front end and muli-view to WebUI. (platform dependent)
+  - Sensors is switched at MIPI interface (use GPIO control) but streams switched at front end after encoders.
+  - VideoWorker with 4 streams, 2 encoders.  Use intermediate frame buffers.
+  - JPEGWorker with 4 streams, 2 encoders.
+  - 4 RTSP stream (ch 0/1/4/5) and 2 onVif profiles 
+  - When dual stream is enabled the motion detection will be disabled.
+  - Auto frame delay padding to keep sensor and stream in sync.  (will take few switching cycles to sync)
