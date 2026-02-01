@@ -1,0 +1,18 @@
+previw.cgi
+  - add sensor switch 
+  - add dual sensors switch
+  - use prudynt integrated GPIO to better sync with streamer.
+  - use prudynt integrated GPIO to control lrled, white and ircut
+  - add dual preview pans for dual sensor
+config-streamer.cgi
+  - add sensor switch
+  - add dual sensor switching and period control
+  - add dual preview pan
+  - add exposure and gain controls to improve low light performance
+service-motion-map.cgi
+  - add motion control white LED
+  - add preview pan for motion detection areas
+  - add motion control box mode for a single ROI area to confine detection area
+  - add motion control tiled map mode for multiple ROIs, set to 8x6 tils.
+  - add tracking control for map mode
+  - the motion detection is disable in prudynt when dual sensor mode is on.
