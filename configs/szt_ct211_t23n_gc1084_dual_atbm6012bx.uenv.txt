@@ -1,0 +1,41 @@
+# virtual/gpio = GPIO-I/O-active-value
+# 		18-in-0-1 *  reset
+# 		6-out-0-1 *  wlan enable/power
+# 		49-out-0-1 * ircut
+# 		50-out-0-1 * ircut
+# 		58-out-0-0 * white LED
+# 		61-out-0-0 
+# 		63-out-0-1
+#  got 6, 18, {60, 51, 52, 53, 54}, {61, 58}, 63, {49, 50}
+# ? 14, 62, 57
+# ircut 49, 50
+# led white 58, led IR 61
+# 7 - audio?
+
+# ct-211 gpio_default=6o 14i 18i 57i 63O 62o 61o 60O 58o 54o 53o 52o 51o 50O 49O
+# ct-213  org gpio_default=6O 16O 18O 49o 50o 57i 58o 59o 60o 62i 63o
+# cinnado gpio_default=6O 18O 38i 39O 40O 45o 46o 47o 49o 52o 53o 57o 58o 59o 61o 62o 63o 64o
+# gpio_default=6O 14i 18i 60O 54o 53o 52o 51o 49 58o 63o 62o 61o
+# new gpio_default=6O 18i 49o 50o 54o 53o 52o 51o 58o 59i 60O 61o 62o 63o 64O
+
+gpio_default=6O 7O 14i 18i 38i 39o 49o 54o 53o 52o 51o 57i 58o 59i 60o 61o 62o 63o 64o
+gpio_button=18
+gpio_wlan=6
+gpio_motor_h=52 53 54 51
+gpio_motor_switch=60
+gpio_motor_v=52 53 54 51
+#gpio_motor_invert=true
+gpio_ir850=61
+gpio_white=58
+
+# use ir940 as manual mipi switch
+# gpio_ir940=7o
+gpio_sensor_switch=7o
+gpio_ircut=50 49
+gpio_mmc_cd=59
+#gpio_phy_reset=64
+
+#???
+#gpio_speaker=63o
+
+
