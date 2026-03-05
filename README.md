@@ -1,6 +1,6 @@
 1/28/2026
 
-This project is based on the wonderful work by team of thingino-firware and Prudynt-T.   Some features been added to the Prudynt-T and WebUI for my own experiment.  
+This project is based on the wonderful work by team of thingino-firmware and Prudynt-T.   Some features been added to the Prudynt-T and WebUI for my own experiment.  
 
 The code was based on the “master+eebcb12” build with Oct. 2025 JASON WebUI.  And, it has only been tested on <szt_ct211_t23n_gc1084_dual_atbm6012bx> dual sensors camera, which is not a currently supported platform, so, it is nowhere near completed. 
 
